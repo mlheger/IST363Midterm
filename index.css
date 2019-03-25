@@ -91,11 +91,6 @@ li a:hover::after{
     transform: scaleX(1);
 }
 
-.card-title{
-    position: fixed;
-    top:100px;
-}
-
 img{
     width: auto;
     height: auto;
@@ -159,3 +154,4 @@ border-radius: 50%;
 .name{
     padding-top: 115px;
 }
+
