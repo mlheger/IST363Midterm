@@ -1,0 +1,161 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+* {
+    padding:0;
+    margin: 0;
+}
+.header{
+    animation: fadein;
+    animation-duration: 4s;
+}
+
+.madrid{
+    top:400px;
+    left: 400px;
+}
+
+
+html body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.phototext{
+    font-size: 20px;
+}
+
+
+.bg-orange{
+    background-color: #E9985B;
+}
+
+
+.about{
+    background-color: #c4c4c4;
+}
+
+.todo{
+    background-color: #D63C33;
+    font-size: 25px;
+}
+
+.recommend{
+    background-color: #c4c4c4;
+}
+
+#home{
+    background-image: url("headerphoto.jpg");
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+
+.Galleries{
+    background-color: #D63C33;
+    font-size: 25px;
+
+}
+
+.galphotos{
+    margin-left:100px;
+}
+
+
+
+.recommend:hover{
+    flex-grow: 1;
+}
+
+li a{
+    position: relative;
+    color:#fff;
+}
+
+li a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color:#fff;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    transform: scaleX(0);
+    transition: .5s;
+    transform-origin: left center;
+}
+
+
+li a:hover::after{
+    transform: scaleX(1);
+}
+
+.card-title{
+    position: fixed;
+    top:100px;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+.changesize{
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    background-color: #E9985B;
+    height: 
+}
+
+.card:hover{
+    transform: scale(1.06)
+}
+
+.border{
+    background-color: #E9985B;
+}
+
+.nightlife img{
+    border: #E9985B solid 1.5px;
+}
+
+.nightlife2 img{
+    border: #D63C33 solid 1.5px;
+}
+
+.nightlife img:hover{
+    transition: border-width .2s linear;
+    border-width: 6px;
+}
+
+
+.nightlife2 img:hover{
+    transition: border-width .2s linear;
+    border-width: 6px;
+}
+
+.btn:hover{
+border-radius: 50%;
+}
+
+.right{
+    margin-right: 150px;
+    }
+
+.gallery{
+    display: flex;
+    margin-left: 100px;
+}
+
+.hikepic{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    padding-top: 115px;
+}
